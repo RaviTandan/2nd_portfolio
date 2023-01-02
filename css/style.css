@@ -866,11 +866,6 @@ form .btn2 {
 }
 
 @media (max-width:991px) {
-    .aside {
-        background: linear-gradient( var(--bg-black-100), rgba(252, 139, 237, 0.3)), url(img/ravitandan.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item {
