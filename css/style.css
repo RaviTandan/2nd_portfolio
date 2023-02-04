@@ -523,8 +523,7 @@ h3.my-profession {
 
 .about .about-content .education:hover,
 .about .about-content .experience:hover {
-    transform: scaleY(4px);
-    background-color: #fa5b71;
+    background-color: var(--skin-color);
 }
 
 .about .about-content h3.title {
@@ -536,6 +535,7 @@ h3.my-profession {
 }
 
 .about .about-content .timeline-box {
+    margin-bottom: 30px;
     flex: 0 0 100%;
     min-width: 100%;
 }
@@ -557,7 +557,6 @@ h3.my-profession {
 }
 
 .about .about-content .timeline .timeline-item:hover {
-    transform: translateY(-10px);
     cursor: pointer;
 }
 
@@ -761,7 +760,7 @@ form textarea:hover {
 
 form .btn2 {
     padding: 14px 60px;
-    background-color: #ff004f;
+    background-color: var(--skin-color);
     font-size: 18px;
     margin-top: 10px;
     cursor: pointer;
@@ -822,7 +821,7 @@ form .btn2 {
     font-weight: 400;
 }
 #msg {
-    color: #61b756;
+    color: var(--skin-color);
     margin-top: 10px;
     margin-left: 10px;
     display: block;
